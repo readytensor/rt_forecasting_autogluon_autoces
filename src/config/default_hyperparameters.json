@@ -1,0 +1,9 @@
+{
+  "model": "Z",
+  "seasonal_period": null,
+  "max_ts_length": 2500,
+  "use_static_features": false,
+  "use_future_covariates": false,
+  "use_past_covariates": false,
+  "random_state": 0
+}
