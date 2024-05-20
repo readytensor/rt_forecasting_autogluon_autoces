@@ -156,7 +156,7 @@ class Forecaster:
         future_covariates = None
         if self.use_future_covariates:
             future_covariates = self.data_schema.future_covariates
-        print("self.model:   ", self.model)
+
         self.model = TimeSeriesPredictor(path=os.path.join(model_dir_path, MODEL_FILE_NAME),
                                          target=self.data_schema.target,
                                          prediction_length=self.data_schema.forecast_length,
